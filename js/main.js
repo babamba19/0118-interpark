@@ -22,10 +22,10 @@ window.onload = function(){
     //  shopping swiper
     var swiper = new Swiper(".sw-shopping", {
         slidesPerView: 5,
-        spaceBetween: 10,
+        // spaceBetween: 10,
         loop: true,
         grid: {
-          rows: 3,
+          rows: 2,
           fill: "row",
         },
         navigation: {
